@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "SuperNova !",
+    "version": "1",
+    "description": "自动完成视频，必要时通知人工干预",
+    "content_scripts": [
+        {
+            "matches": ["https://mooc1-2.chaoxing.com/*"],
+            "all_frames": true,
+            "run_at": "document_idle",
+            "js": ["build/bundle.js"]
+        }
+    ]
+}

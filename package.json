@@ -1,0 +1,23 @@
+{
+    "name": "supernova",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "rollup -w -c",
+        "build": "rollup -c"
+    },
+    "dependencies": {
+        "@types/chrome": "0.0.59",
+        "@types/md5": "^2.1.32",
+        "md5": "^2.2.1"
+    },
+    "devDependencies": {
+        "rollup": "^0.56.2",
+        "rollup-plugin-commonjs": "^8.3.0",
+        "rollup-plugin-node-resolve": "^3.0.3",
+        "rollup-plugin-typescript2": "^0.11.1",
+        "typescript": "^2.7.2"
+    }
+}
